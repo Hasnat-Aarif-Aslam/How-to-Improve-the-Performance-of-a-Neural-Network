@@ -1,0 +1,1 @@
+This pdf shows some methods to fine tune the hyperparameters of a Neural Network to increase it's performance. It also puts light on some of the common problems related to Neural Networks along with their solutions.
