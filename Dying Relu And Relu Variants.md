@@ -20,6 +20,18 @@
 
 
 Variants:
+
+Linear Category (actually referring to piecewise linear functions like ReLU variants):
+
+* Leaky ReLU: A variant of ReLU that allows a small, non-zero gradient for negative inputs, preventing neurons from "dying".
+* Parametric ReLU (PReLU): Similar to Leaky ReLU, but with a learnable parameter for the slope of the negative part.
+* Both Leaky ReLU and PReLU are piecewise linear functions because they are composed of linear segments but introduce non-linearity by having different behaviors for positive and negative inputs.
+
+Non-Linear Category:
+
+* ELU (Exponential Linear Unit): Uses an exponential function for negative inputs, providing smoother and more robust learning.
+* SELU (Scaled Exponential Linear Unit): A variant of ELU that scales the output, helping to normalize the network.
+* ELU and SELU are inherently non-linear and provide more complex transformations than piecewise linear functions like ReLU variants.
 ![image](https://github.com/user-attachments/assets/3450c494-3a47-416c-99ea-0723b1a3e474)
 
 
@@ -61,3 +73,10 @@ More flexible, potentially leading to better performance, but slightly more comp
 * Derivative Plot and Advantages:
 ![image](https://github.com/user-attachments/assets/a8d03610-8944-4d72-a1b5-55e7c5422537)
 
+
+Summary:
+* ReLU: Default choice, fast and simple.
+* Leaky ReLU: When ReLU neurons die and you need a simple fix.
+* PReLU: When you need flexibility to learn the negative slope.
+* ELU: When faster and more accurate learning is needed.
+* SELU: For very deep networks where self-normalization helps.
