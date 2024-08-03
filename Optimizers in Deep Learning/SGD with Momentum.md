@@ -29,4 +29,8 @@
 ![image](https://github.com/user-attachments/assets/4684e0a7-5c76-4ad3-8a3f-155507bb0678)
 
 
+# **Keras Code**
+![image](https://github.com/user-attachments/assets/6548c8a5-cf46-4b90-b703-66dff6f1ab12)
+
+
 
