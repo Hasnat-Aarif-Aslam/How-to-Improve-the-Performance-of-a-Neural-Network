@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/06bb386d-a0c4-4386-9bea-224e41c3aaa8)# **When to use AdaGrad:**
+# **When to use AdaGrad:**
 
 ![image](https://github.com/user-attachments/assets/067a38b2-aca8-4823-97fe-5caf23aa5bd3)
 
